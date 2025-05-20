@@ -7,9 +7,12 @@ Building a generative AI model from scratch involves a dual-network setup consis
 <br>
 <br>
 The two networks are trained together in a zero-sum game: the generator tries to fool the discriminator, while the discriminator aims to accurately distinguish real from fake data.A GAN consists of the following key components:
+<br>
 1. Noise Vector: A random input vector fed into the generator.
-2. Generator: A neural network that transforms the noise vector into a data sample.
-3. Discriminator: A neural network that classifies input data as real or fake.
+<br>
+3. Generator: A neural network that transforms the noise vector into a data sample.
+<br>
+5. Discriminator: A neural network that classifies input data as real or fake.
 
 # Feature
 we will use the MNIST dataset for building a generative AI model from scratch because of these three reasons:
